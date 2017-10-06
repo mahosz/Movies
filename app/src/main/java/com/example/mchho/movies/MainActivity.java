@@ -11,12 +11,10 @@ import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.TextHttpResponseHandler;
 
-import java.util.List;
 
 import cz.msebera.android.httpclient.Header;
 
 public class MainActivity extends AppCompatActivity {
-    private List<Result> movieList;
     private RecyclerView recyclerView;
     private MovieAdapter movieAdapter;
 
